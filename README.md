@@ -8,6 +8,7 @@ A short script that goes through your files and creates a *.patch* file doing ex
 At least ```Python 3.10```
 
 # Usage
+- First, change the commented file variables at the top of the code for actual use.
 - ```python3 compare_files.py <file1> <file2>```\
 Changes will be stored in *diff.patch*.
 
