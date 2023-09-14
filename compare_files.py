@@ -12,7 +12,7 @@ outputFile = "diff.patch"
 if not isfile(inputFile1) or not isfile(inputFile2):
     raise ValueError("Invalid file paths.")
 
-diff = ["diff\n", "--- " + inputFile1 + " | +++" + inputFile2 + "\n"]
+diff = ["DIFF\n", "--- " + inputFile1 + " | +++ " + inputFile2 + "\n"]
 
 
 def add_to_diff(line: str, sign=" "):
